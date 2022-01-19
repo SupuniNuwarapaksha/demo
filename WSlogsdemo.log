@@ -1,0 +1,14 @@
+2022-01-11 15:20:53.960  INFO 5072 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 16.0.1 on DTSLP0040 with PID 5072 (D:\WS\demo\target\classes started by Supuni Nuwarapaksha in D:\WS\demo)
+2022-01-11 15:20:53.964  INFO 5072 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2022-01-11 15:20:55.180  INFO 5072 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-01-11 15:20:55.197  INFO 5072 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-11 15:20:55.198  INFO 5072 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-11 15:20:55.312  INFO 5072 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-11 15:20:55.313  INFO 5072 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1255 ms
+2022-01-11 15:20:55.802  INFO 5072 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-11 15:20:55.814  INFO 5072 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 10.878 seconds (JVM running for 12.235)
+2022-01-11 15:21:05.329  INFO 5072 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-11 15:21:05.330  INFO 5072 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-11 15:21:05.333  INFO 5072 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-01-11 15:21:05.387  INFO 5072 --- [http-nio-8080-exec-1] com.example.demo.LogController           : I was logged : name=Supuni
+2022-01-11 15:21:57.567  INFO 5072 --- [RMI TCP Connection(3)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
