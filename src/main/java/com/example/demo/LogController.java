@@ -14,7 +14,7 @@ public class LogController {
 	@GetMapping("/log")
 	public String getName(@RequestParam(name = "name") String name) {
 	
-		LOGGER.info("I was logged : name={}", name);
+		LOGGER.info("I was logged : name={} | Good Job Supuni", name);
 		return "Hi " + name;
 		
 	}
